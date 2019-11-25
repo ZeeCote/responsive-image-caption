@@ -41,4 +41,36 @@ figcaption h2 {
   font-size: 1.5rem;
 }
 
+@media (min-width: 38em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  figcaption {
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    border-radius: 1em;
+    position: absolute;
+
+  }
+
+}
+
+@media (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+}
